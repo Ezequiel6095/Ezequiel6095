@@ -1,7 +1,7 @@
 # Hola, soy Ezequiel Diaz 👋
 
 - 🌱 Actualmente estoy aprendiendo Desarrollo BackEnd
-- 📫 Puedes contactarme por mí <a href="ezequielqd@iclud.com">Icloud</a>
+- 📫 Puedes contactarme por: ezequielqd@icloud.com
   
   
   
