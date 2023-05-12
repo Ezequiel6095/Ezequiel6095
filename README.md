@@ -2,7 +2,6 @@
 
 - 🌱 Actualmente estoy aprendiendo Desarrollo BackEnd
 - 📫 Puedes contactarme por mí <a href="ezequielqd@iclud.com">Icloud</a>
-- 😄 Pronombres: <EDV>
   
   
   
