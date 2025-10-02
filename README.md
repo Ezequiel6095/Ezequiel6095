@@ -31,79 +31,14 @@ Creo **productos claros, consistentes y eficientes**, cuidando accesibilidad, ex
 
 <div align="center">
 
-<!-- Animación SVG de "Edificio en construcción" -->
-<svg width="400" height="500" viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient id="buildingGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#95A5A6;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#7F8C8D;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient id="craneGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#F39C12;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#E67E22;stop-opacity:1" />
-    </linearGradient>
-  </defs>
-  
-  <!-- Fondo cielo -->
-  <rect width="400" height="500" fill="url(#skyGradient)"/>
-  
-  <!-- Suelo -->
-  <rect x="0" y="450" width="400" height="50" fill="#34495E"/>
-  <rect x="0" y="445" width="400" height="5" fill="#2C3E50"/>
-  
-  <!-- Edificio en construcción -->
-  <g id="building">
-    <rect x="80" y="250" width="160" height="200" fill="url(#buildingGradient)" stroke="#5D6D7E" stroke-width="2"/>
-    <line x1="80" y1="300" x2="240" y2="300" stroke="#5D6D7E" stroke-width="2"/>
-    <line x1="80" y1="350" x2="240" y2="350" stroke="#5D6D7E" stroke-width="2"/>
-    <line x1="80" y1="400" x2="240" y2="400" stroke="#5D6D7E" stroke-width="2"/>
-    <rect x="100" y="410" width="25" height="30" fill="#3498DB" opacity="0.7"/>
-    <rect x="145" y="410" width="25" height="30" fill="#3498DB" opacity="0.7"/>
-    <rect x="190" y="410" width="25" height="30" fill="#3498DB" opacity="0.7"/>
-    <rect x="100" y="360" width="25" height="30" fill="#3498DB" opacity="0.7"/>
-    <rect x="145" y="360" width="25" height="30" fill="#3498DB" opacity="0.7"/>
-    <rect x="190" y="360" width="25" height="30" fill="#3498DB" opacity="0.7"/>
-    <rect x="100" y="310" width="25" height="30" fill="#3498DB" opacity="0.7"/>
-    <rect x="145" y="310" width="25" height="30" fill="#3498DB" opacity="0.7"/>
-    <rect x="190" y="310" width="25" height="30" fill="#3498DB" opacity="0.7"/>
-    <rect x="75" y="245" width="170" height="8" fill="#E67E22"/>
-  </g>
-  
-  <!-- Grúa -->
-  <g id="crane">
-    <rect x="270" y="200" width="15" height="250" fill="url(#craneGradient)" stroke="#D68910" stroke-width="1"/>
-    <rect x="260" y="445" width="35" height="10" fill="#D68910"/>
-    <polygon points="260,445 295,445 285,435 270,435" fill="#E67E22"/>
-    <rect x="180" y="195" width="150" height="8" fill="url(#craneGradient)" stroke="#D68910" stroke-width="1"/>
-    <rect x="180" y="185" width="30" height="25" fill="#C0392B"/>
-    <rect x="265" y="185" width="25" height="15" fill="#3498DB"/>
-    <line x1="310" y1="203" x2="310" y2="280" stroke="#34495E" stroke-width="2">
-      <animate attributeName="y2" values="280;350;280" dur="4s" repeatCount="indefinite"/>
-    </line>
-    <circle cx="310" cy="280" r="4" fill="#7F8C8D">
-      <animate attributeName="cy" values="280;350;280" dur="4s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-  
-  <!-- Bloque en movimiento -->
-  <g id="block">
-    <rect x="295" y="285" width="30" height="30" fill="#E74C3C" stroke="#C0392B" stroke-width="2">
-      <animate attributeName="y" values="285;355;285" dur="4s" repeatCount="indefinite"/>
-    </rect>
-  </g>
-  
-  <!-- Nubes -->
-  <ellipse cx="80" cy="80" rx="30" ry="20" fill="white" opacity="0.7">
-    <animate attributeName="cx" values="80;420;80" dur="30s" repeatCount="indefinite"/>
-  </ellipse>
-  <ellipse cx="300" cy="100" rx="40" ry="25" fill="white" opacity="0.6">
-    <animate attributeName="cx" values="300;-40;300" dur="40s" repeatCount="indefinite"/>
-  </ellipse>
-</svg>
+<!-- SVG animado servido como imagen (recomendado en GitHub) -->
+<picture>
+  <source type="image/svg+xml" srcset="https://raw.githubusercontent.com/Ezequiel6095/Ezequiel6095/main/assets/under-construction.svg">
+  <img src="https://raw.githubusercontent.com/Ezequiel6095/Ezequiel6095/main/assets/under-construction.svg" width="360" alt="Portafolio en construcción">
+</picture>
+
+<!-- Fallback GIF opcional: descomenta si lo subes a /assets -->
+<!-- <img src="https://raw.githubusercontent.com/Ezequiel6095/Ezequiel6095/main/assets/under-construction.gif" width="320" alt="Portafolio en construcción"> -->
 
 ### 🚧 Portafolio en construcción 🚧
 
@@ -138,7 +73,7 @@ Creo **productos claros, consistentes y eficientes**, cuidando accesibilidad, ex
 
 <div align="center">
 
-<!-- Snake animation -->
+<!-- Snake animation (asegúrate de tener el workflow y la rama output creada) -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ezequiel6095/Ezequiel6095/output/github-contribution-grid-snake-dark.svg">
   <img alt="snake animation" src="https://raw.githubusercontent.com/Ezequiel6095/Ezequiel6095/output/github-contribution-grid-snake.svg">
